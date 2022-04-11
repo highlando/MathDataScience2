@@ -1,6 +1,4 @@
-
-(ch:eigenwerttheorie)=
-Eigenwerte
+Eigenwerte {#eigenwerttheorie}
 ============================
 
 Bevor wir uns mathematisch mit dem Begriff der Eigenwerte eines Endomorphismus widmen, wollen wir motivieren warum wir uns damit beschäftigen.
