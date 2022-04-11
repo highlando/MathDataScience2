@@ -72,7 +72,7 @@ Siehe Bemerkung 2.6.2 und 2.6.3 in.
 :::
 
 
-Bevor wir uns dem eigentlich Studium von Eigenwerten und Eigenvektoren widmen, wollen wir noch einige grundlegende Begriffe aus der Linearen Algebra wiederholen, die aus {cite:p}`burger_2020` bereits bekannt sein sollten.
+Bevor wir uns dem eigentlich Studium von Eigenwerten und Eigenvektoren widmen, wollen wir noch einige grundlegende Begriffe aus der Linearen Algebra wiederholen, die aus [@burger_2020] bereits bekannt sein sollten.
 Hierbei handelt es sich um nützliche Begriffe und Eigenschaften von quadratische Matrizen als Repräsentanten von Endomorphismen, die ein Spezialfall von linearen Abbildungen zwischen $\mathbb{K}$-Vektorräumen darstellen.
 
 ::: {.definition #matrix-spur name="Spur einer Matrix"}
@@ -113,7 +113,7 @@ Eine quadratische Matrix $A \in \mathbb{K}^{n \times n}$ hat genau dann vollen R
 :::
 
 ::: {.proof}
-Sei $\Rang(A) = \dim \Bild(A) = \dim V$, dann wissen wir nach dem Satz über die Orthogonalität von Bild und Kern (siehe Satz 3.28 {cite:p}`burger_2020`), dass der Kern von $A^T$ trivial sein muss, d.h., $\Kern(A^T) = \lbrace{\vec{0}\rbrace}$. Dies ist äquivalent dazu, dass die Matrix $A^T$ regulär ist. Dann folgt schon mit der äquivalenten Bedingung aus {cite:p}`burger_2020` Satz 3.41], dass die Determinante $\det(A^T) = \det(A) \neq 0$ ist.
+Sei $\Rang(A) = \dim \Bild(A) = \dim V$, dann wissen wir nach dem Satz über die Orthogonalität von Bild und Kern (siehe Satz 3.28 [@burger_2020]), dass der Kern von $A^T$ trivial sein muss, d.h., $\Kern(A^T) = \lbrace{\vec{0}\rbrace}$. Dies ist äquivalent dazu, dass die Matrix $A^T$ regulär ist. Dann folgt schon mit der äquivalenten Bedingung aus [@burger_2020, Satz 3.41], dass die Determinante $\det(A^T) = \det(A) \neq 0$ ist.
 :::
 
 ::: {.lemma name="Determinanten-Regel von Sarrus" #sarrus}
@@ -134,7 +134,7 @@ lässt sich mit der _Regel von Sarrus_ wie folgt berechnen.
 :::
 
 ::: {.proof}
-Siehe Theorem 3.2.5 (Leibnizformel) in {cite:p}`fischer`.
+Siehe [@fischer, Theorem 3.2.5 (Leibnizformel)].
 :::
 
 Das folgende Lemma erlaubt es uns die Determinante für Blockmatrizen besonders leicht auszurechnen und das Problem in einfachere Unterprobleme zu zerlegen.
@@ -157,5 +157,5 @@ Dann gilt für die Determinante der Blockmatrix $A$:
 :::
 
 ::: {.proof}
-Siehe Satz 3.1.3, D9 [@fischer].
+Siehe [@fischer, Satz 3.1.3, D9].
 :::

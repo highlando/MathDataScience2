@@ -22,6 +22,11 @@ div.JHSAYS {
 	border-left: 4px solid #dcdcdc;
 }
 
+.definition {
+	color: #006060;
+    background-color: #eef1c9;
+}
+
 .math {
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
