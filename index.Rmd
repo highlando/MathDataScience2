@@ -1,0 +1,20 @@
+--- 
+title: "Mathematik für Data Science 2 / Physik B"
+author: "Jan Heiland"
+institute: FAU
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [book.bib]
+biblio-style: apalike
+link-citations: yes
+github-repo: highlando/script-daes
+url: 'https\://www.janheiland.de/script-daes/'
+description: "Skript zur Vorlesung"
+---
+
+# Vorwort {-}
+
+Das ist das Skript geschrieben von Daniel Tenbrinck, in `jupyterbook` realisiert von Lea F\"ocke und Tim Roith, und von mir nach `bookdown` portiert.
+
+Fixes and feature requests can be submitted to the [github-repo](https://github.com/highlando/script-daes).

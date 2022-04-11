@@ -1,0 +1,10 @@
+book_filename: "DS2"
+# chapter_name: "Chapter "
+repo: https://github.com/highlando/MathDataScience2
+output_dir: docs
+rmd_files: ["index.Rmd",
+            "eigenwerte/eigenwerte.md",
+            "eigenwerte/prelim.md",
+            ]
+clean: [packages.bib, bookdown.bbl]
+# new_session: yes
